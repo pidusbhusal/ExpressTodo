@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Dependency directories
+.bower_components/
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE/Editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Coverage directories (for tests)
+coverage/
+
+# Lint cache
+.eslintcache
+
+# Parcel cache
+.cache/
+
+# Next.js output
+.next/
+
+# SvelteKit output
+.svelte-kit/
+
+# React Native
+.expo/
+.expo-shared
