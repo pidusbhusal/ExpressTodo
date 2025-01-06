@@ -1,9 +1,11 @@
 {
   "name": "expresstodo",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000E\u0000x\u0000p\u0000r\u0000e\u0000s\u0000s\u0000T\u0000o\u0000d\u0000o\u0000\r\u0000 \u0000",
+  "description": "A fullstack todo application that uses NodeJs backend SQL lite database and JWT authentication",
   "main": "index.js",
+  "type":"module",
   "scripts": {
+    "dev" : "node --watch --env-file=.env --experimental-strip-types --experimental-sqlite ./src/server.js ", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/pidusbhusal/ExpressTodo/issues"
   },
-  "homepage": "https://github.com/pidusbhusal/ExpressTodo#readme"
+  "homepage": "https://github.com/pidusbhusal/ExpressTodo#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
 }
